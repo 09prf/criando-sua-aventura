@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura na Floresta Encantada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Em um belo dia, Alex, um menino corajoso e explorador, recebe um mapa misterioso que o levara até uma
+                floresta encantada. Alex, então, decide seguir o mapa. Lá ele encontrou dois caminhos</p>
+            <button class="btn-proximo" data-proximo="1">esquerda</button>
+            <button class="btn-proximo" data-proximo="2">direita</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Alex virou a esquerda: coberto de neblina e com sons estranhos de animais</p>
+            <button class="btn-proximo" data-proximo="3">ele da continuidade a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Alex virou a direita: era um caminho iluminado por vagalumes e era uma estrada calma e confortável
+                para se ficar</p>
+                <button class="btn-proximo" data-proximo="3">ele da continuidade a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Alex da continuidade a sua jornada. Ele continua andando por bastante tempo, quando de repente ele
+                encontra uma criatura mágica, que oferece a ele duas escolhas</p>
+            <button class="btn-proximo" data-proximo="4">confiar nele e permitir que ele o guie até o presente
+                final</button>
+            <button class="btn-proximo" data-proximo="5">ir embora e nunca mais voltar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Alex aceita a ajuda da criatura magica e encontra uma vila secreta de criaturas magicas. Eles o
+                presenteiam com um amuleto de proteção e oferecem a ele a chance de se tornar o guardião da floresta</p>
+            <button class="btn-proximo" data-proximo="6">aceitar</button>
+            <button class="btn-proximo" data-proximo="7">negar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.jpg" alt="">
+            <p>ao aceitar, ele se torna o guardiaõ e vive uma vida eterna cuidando da floresta, era feliz e em nenhum
+                momento ele sentiu falta do que poderia ter vivido ao levar uma vida normal</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.jpg" alt="">
+            <p>ao negar, Alex desmaia, e ao acordar ele não se lembrava de nada da sua aventura, só tinha um belo
+                amuleto em mãos</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo7.jpg" alt="">
+            <p>Alex nega a ajuda e decide voltar, mas acaba se perdendo na floresta, eles não o deixariam sair.</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
